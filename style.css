@@ -1,0 +1,32 @@
+
+footer{ 
+    text-align: center;
+    min-height:50px; 
+}
+header{
+    text-align: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    text-align: center;
+    display: table-cell;
+    font-family: Verdana, sans-serif;
+    background-color: lightblue;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 100;
+}
+table, td, th {
+    border: 3px solid rgb(74, 74, 74);
+  }
