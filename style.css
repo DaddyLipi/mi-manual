@@ -21,6 +21,7 @@ aside {
     float: right;
     font-style: italic;
     background-color: lightgray;
+    border: 3px solid black;
 }
 table{
     text-align: center;
