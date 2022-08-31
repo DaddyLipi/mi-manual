@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: lobster;
+    src: url(./Fonts/Lobster-Regular_7d6154c54ee9635fb811bff8e5946afb.ttf);
+}
 footer{ 
     text-align: center;
     min-height:50px; 
@@ -6,28 +9,37 @@ footer{
 header{
     text-align: center;
     font-size: large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: lobster;
+    background-color: black;
+    align-self: center;
 }
 body{
     text-align: center;
     display: table-cell;
     font-family: Verdana, sans-serif;
-    background-color: lightblue;
+    background-color: rgb(43 48 53);
+    vertical-align: middle;
 }
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
+
+table{
+    border-style: groove;
+    align-self: center;
+    text-align: center;
+    max-width:1000px;
+    background-color: aliceblue;
+}
+th{
+    border-style: solid;
+    border: 3px solid black;
+    background-color: rgb(64,224,208);
+}
+table, td {
     border: 3px solid black;
 }
-table{
-    text-align: center;
-    border-collapse: collapse;
-    margin-left: 100;
+h1{
+    color: aliceblue;
 }
-table, td, th {
-    border: 3px solid rgb(74, 74, 74);
-  }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
