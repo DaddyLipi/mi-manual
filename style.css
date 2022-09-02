@@ -2,44 +2,88 @@
     font-family: lobster;
     src: url(./Fonts/Lobster-Regular_7d6154c54ee9635fb811bff8e5946afb.ttf);
 }
+@font-face {
+    font-family: Varela;
+    src: url(./Fonts/VarelaRound-Regular.ttf);
+}
+@font-face {
+    font-family: Vegan;
+    src: url(./Fonts/VeganStylePersonalUse-5Y58.ttf);
+}
+@font-face {
+    font-family: Marshmellow;
+    src: url(./Fonts/MarshmallowPersonalUseRegular-w1l49.ttf);
+}
+@font-face {
+    font-family: Joy;
+    src: url(./Fonts/Joynoted\ Demo.ttf);
+}
+@font-face {
+    font-family: Australia;
+    src: url(./Fonts/South\ Australia.ttf);
+}
 footer{ 
+    font-size:xx-large;
+    font-family: Marshmellow;
     text-align: center;
     min-height:50px; 
+    margin: 0;
+    background-color: rgba(217, 207, 185, 0.5);
 }
 header{
+    min-height: 50px;
     text-align: center;
-    font-size: large;
-    font-family: lobster;
-    background-color: black;
+    font-size: xx-large;
+    font-family: Marshmellow;
     align-self: center;
+    margin-top: 0;
+    background-color: rgba(217, 207, 185, 0.5);
 }
 body{
+    margin: 0;
     text-align: center;
-    display: table-cell;
-    font-family: Verdana, sans-serif;
-    background-color: rgb(43 48 53);
+    /*background-color: #f5f5f5;*/
     vertical-align: middle;
+    background-image: url(./Images/Fondo2.png);
 }
 
 table{
-    border-style: groove;
-    align-self: center;
+    border-collapse: collapse;
     text-align: center;
-    max-width:1000px;
-    background-color: aliceblue;
+    max-width: 700px;
+    border: 3px solid #7a8180;
 }
 th{
-    border-style: solid;
-    border: 3px solid black;
-    background-color: rgb(64,224,208);
+    border-style: inset;
+    font-size: x-large;
+    font-family: Marshmellow;
+    background-color: #b3d3bb;
+    border: 3px solid #7a8180;
 }
-table, td {
-    border: 3px solid black;
+td {
+    border-style: inset;
+    font-size: large;
+    font-family: Joy;
+    color: black;
+    background-color: #d9cfb9;
+    border: 3px solid #7a8180;
 }
 h1{
-    color: aliceblue;
+    margin-top: 0;
+    color: black;
 }
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+aside{
+    margin-left: 50px;
+    max-width: 300px;
+    position: absolute;
+}
+a{
+    color: black;
+}
+td:nth-child(even) {
+    background-color: #d5ecdb;
 }
