@@ -1,0 +1,209 @@
+@font-face {
+    font-family: lobster;
+    src: url(../Fonts/Lobster-Regular_7d6154c54ee9635fb811bff8e5946afb.ttf);
+}
+@font-face {
+    font-family: Varela;
+    src: url(../Fonts/VarelaRound-Regular.ttf);
+}
+@font-face {
+    font-family: Vegan;
+    src: url(../Fonts/VeganStylePersonalUse-5Y58.ttf);
+}
+@font-face {
+    font-family: Marshmellow;
+    src: url(../Fonts/MarshmallowPersonalUseRegular-w1l49.ttf);
+}
+@font-face {
+    font-family: Joy;
+    src: url(../Fonts/Joynoted\ Demo.ttf);
+}
+@font-face {
+    font-family: Australia;
+    src: url(../Fonts/South\ Australia.ttf);
+}
+footer{ 
+    position: relative;
+    clear: both;
+    font-size:x-large;
+    font-family: Marshmellow;
+    text-align: center;
+    min-width: 100%;
+    background-color: rgba(217, 207, 185, 0.5);
+    bottom: 0px;
+    margin-top:auto; 
+}
+header{
+    display: flex;
+    min-height: 50%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Marshmellow;
+    align-self: center;
+    margin-top: 0;
+    background-color: rgba(217, 207, 185, 0.5);
+    min-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    align-items: center;
+    align-self: center;
+}
+.button{
+    align-items: flex-end;
+}
+body{
+    margin: 0;
+    text-align: center;
+    /*background-color: #f5f5f5;*/
+    vertical-align: middle;
+    background-image: url(../Images/Fondo2.png);
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    max-width: 700px;
+    border: 3px solid #7a8180;
+}
+th{
+    border-style: inset;
+    font-size: x-large;
+    font-family: Marshmellow;
+    background-color: #b3d3bb;
+    border: 3px solid #7a8180;
+}
+td {
+    border-style: inset;
+    font-size: large;
+    font-family: Joy;
+    color: black;
+    background-color: #d9cfb9;
+    border: 3px solid #7a8180;
+}
+h1{
+    margin-top: 0;
+    color: black;
+}
+h2{
+    font-size:xx-large;
+    color: black;
+    font-family: lobster;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+aside{
+    float: right;
+}
+a{
+    color: black;
+}
+.left{
+    float:left;
+}
+td:nth-child(even) {
+    background-color: #d5ecdb;
+}
+section{
+    text-align: center;
+    float: left;
+    display: flex;
+    width: 100%;
+}
+.container
+{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.container .card
+{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(179, 211, 187, 0.89);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.container .card1
+{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    background: rgba(179, 211, 187, 0.89);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    margin-left: 10%;
+    justify-content:flex-end;
+    justify-self: flex-end;
+}
+.push{
+    margin-left: 0%;
+}
+.container .card .imgBx
+{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+
+.container .card .imgBx img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container .card .imgBx h2
+{
+    position:relative;
+    color: black;
+    font-weight: 1000;
+    margin-top: 0%;
+}
+
+.container .card .content
+{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.container .card:hover .content
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-30px);
+}
+.container .card:hover
+{
+    transform: scale(1.01);
+
+}
+
+
+
